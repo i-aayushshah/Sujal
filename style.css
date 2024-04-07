@@ -254,6 +254,32 @@ body {
    right: 10px;
 
 }
+#product1 .pro .price-discount {
+    display: flex;
+    align-items: center;
+}
+
+#product1 .pro .price-discount h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+#product1 .pro .price-discount h4 .original-price {
+    text-decoration: line-through;
+    margin-right: 5px;
+    color: #888;
+}
+
+.original-price {
+    text-decoration: line-through;
+    margin-right: 5px;
+    color: #888;
+}
+#product1 .pro .price-discount h4 .discounted-price {
+    color: #088178;
+}
 
 #newsletter{
     display: flex;
@@ -319,6 +345,13 @@ button.normal{
     outline: none;
     transition: 0.2s;
 }
+.pro-container button{
+    background-image: url(img/button.png);
+    border: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
 
 footer{
     display: flex;
@@ -381,7 +414,26 @@ footer .copyright{
 #page-header h2, #page-header p{
     color: #fff;
 }
-
+#Banner{
+    background-image: url('img/banner/b2.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 14px;
+}
+#Banner h2, #Banner p{
+    color: #fff;
+    padding: 10px, 0;
+}
+#Banner p{
+    font-size: 24px;
+}
+#Banner button:hover{
+    background-color: #088178;
+    color: #fff;
+}
 #pagination{
     text-align: center;
 }
